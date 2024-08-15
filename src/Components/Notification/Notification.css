@@ -1,0 +1,50 @@
+.noti .privateMsg {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .noti img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .noti .notiInfo {
+    flex: 1;
+  }
+  
+  .noti .notiText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .noti .notiText p {
+    margin: 0;
+  }
+  
+  .noti .name {
+    font-weight: bold;
+  }
+  
+  .noti .extraDetail {
+    color: #0056b3;
+  }
+  
+  .noti .dot {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .noti .time {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .noti .privateMsg {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  
